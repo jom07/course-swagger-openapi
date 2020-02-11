@@ -1,0 +1,23 @@
+{
+  "name": "swagger-openapi",
+  "version": "1.0.0",
+  "description": "Linkedin course: https://www.linkedin.com/learning/building-apis-with-swagger-and-the-openapi-specification/",
+  "main": "index.js",
+  "scripts": {
+    "swagger-ui": "http-server swagger-ui/dist -a 127.0.0.1 -p 9091",
+	"swagger-editor": "http-server swagger-editor -a 127.0.0.1 -p 9090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jonathan.malatesta.07/swagger-openapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jonathan.malatesta.07/swagger-openapi/issues"
+  },
+  "homepage": "https://gitlab.com/jonathan.malatesta.07/swagger-openapi#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
